@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(350, 43%, 45%);
+  font-family: cursive, "Arial";
+  line-height: 1;
+  font-size: large;
+}
+
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+main {
+  margin: 0 20%;
+}
+
+h1 {
+  color: #ffb30f;
+  padding-top: 1em;
+}
+
+h1.Hi {
+  margin-right: 10%;
+  margin-left: -5%;
+}
+
+h2 {
+  color: #ffb30f;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: left;
+}
+
+h3 {
+  color: #ffb30f;
+  padding-bottom: 5px;
+}
+
+p {
+  color: #ffffff;
+}
+
+a {
+  color: #ffb30f;
+  text-decoration: underline;
+  padding: 5px 0;
+}
+
+header {
+  color: #ffb30f;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/* Navigation Styles */
+ul {
+  list-style-type: none;
+  padding: 1em;
+  background-color: #252422;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.Nav,
+.Nav2 {
+  color: #ffb30f;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 1.3em;
+}
+
+.Nav:hover,
+.Nav2:hover {
+  background-color: white;
+}
+
+/* Layout Styles */
+.favProjects {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.cnt1-1,
+.cnt1-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.cnt1-2 {
+  margin-bottom: 2em;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2em 0 1em 0;
+}
+
+.cnt2-1,
+.cnt3-1,
+.cnt4-1,
+.cnt5-1,
+.cnt6-1,
+.cnt7-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 2em 0;
+}
+
+.cnt2-2,
+.cnt3-2,
+.cnt4-2,
+.cnt5-2,
+.cnt6-2,
+.cnt7-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+
+}
+
+
+/* Image Styles */
+.Me {
+  border: 2em double #ffb30f;
+  width: 20%;
+  margin-right: auto;
+  margin: 1em;
+  border-radius: 15%;
+
+
+}
+
+
+.DcCar {
+  margin: 0 3em;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  border: 10px dashed #ffb30f;
+}
+
+
+.rbtArm{
+  border-radius: 10%;
+  margin: 0 3em;
+  width: 200px;
+  height: 250px;
+  border: 10px dashed #ffb30f;
+}
+
+.rbtProject {
+  border-radius: 10%;
+  margin: 0 3em;
+  width: 200px;
+  height: 200px;
+  border: 10px dashed #ffb30f;
+}
+
+#Bridge {
+  width: 20%;
+  border-radius: 10%;
+  margin:  3em;
+  border: 10px dashed #ffb30f;
+}
+
+
+img.Blob,
+.Hail,
+.Pickle,
+.starImg {
+  width: 35%;
+  border-radius: 15%;
+  margin-right: 2em;
+  border: 10px dashed #ffb30f;
+  margin: 1em auto;
+}
+
+
+.JellyFish {
+  border: 10px dashed #ffb30f;
+  border-radius: 15%;
+  margin: 1em 1em 1em 4em;
+  width: 300px;
+  height: 300px;
+}
+
